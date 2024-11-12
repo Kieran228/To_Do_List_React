@@ -1,6 +1,6 @@
 import React from "react";
 
-function input() {
+function InputTask() {
 
     return (
         <div className="row">
@@ -14,4 +14,4 @@ function input() {
     )
 }
 
-export default input;
+export default InputTask;

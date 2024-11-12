@@ -2,6 +2,8 @@ import React from "react";
 
 function ToDoItem(props) {
 
+    console.log(props)
+
 
     return (
         <div className="row">
@@ -21,7 +23,8 @@ function ToDoItem(props) {
                 <h4>{props.taskDesc}</h4>
             </div>
             <div className="col-2 d-flex align-items-center">
-                <input type="checkbox" name="done" id="done" checked={props.taskDone} />
+                {/* <input type="checkbox" name="done" id="done" checked={props.taskDone} /> */}
+                {props.taskDone ? <div className="checkboxTrue">Done!</div> : <div className="checkboxFalse">Unfinished</div>}
                 
             </div>
         </div>

@@ -3,21 +3,21 @@ export default [
         name: "Clean Bedroom",
         description:"Need to clean my bedroom",
         timeDue: "10:59 pm",
-        done: false,
+        done: true,
 
     },
     {
         name: "Clean Kitchen",
         description:"Kitchen needs to be clean",
         timeDue: "7:30 pm",
-        done: false,
+        done: true,
 
     },
     {
         name: "Vaccum Floors",
         description:"Floors need to swept/clean",
         timeDue: "2:00 pm",
-        done: false,
+        done: true,
 
     },
     {
