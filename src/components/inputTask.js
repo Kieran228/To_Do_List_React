@@ -8,7 +8,7 @@ function InputTask() {
                 <h1>Task Input</h1>
             </div>
             <div className="col-12 inputBoxes">
-
+                <input type="text" />
             </div>
         </div>
     )
